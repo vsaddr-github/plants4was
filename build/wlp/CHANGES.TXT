@@ -1,0 +1,25 @@
+PH01610 APPLICATION FAILS TO START DUE TO JAXBEXCEPTION AFTER UPGRADING TO 18.0.0.2
+PH11801 LIBERTY 19.0.0.3 CAN'T START JAVA HEALTH CENTER STARTING WITH IBM JDK 8.0.5.31.
+PH13341 ACTION --CLEAN IGNORED WHEN WLP_ZOS_JOBNAME IS SET
+PH14619 ServletContext.getRealPath() shouldn't return null for nonexistent files
+PH14786 Using non ASCII characters (ex. Chinese) in an SCIM filter fails
+PH15089 A login might be required for unprotected resources when none of TAIs processed a request.
+OLGH5035 Update ServletContext.getRealPath() behavior
+OLGH7521 Call Class.forName() within doPrivileged block from WASURLObjectFactoryFinder
+OLGH8085 HttpServletMapping.getPattern is not correct for /* mapping
+OLGH8128 Clean up URIMatcher40 and ServletWrapper
+OLGH8141 Adding mpConfig-1.3 feature while the server is running doesn't install the configuration feature properly
+OLGH8250 OIDC discovery endpoint doesn't emit the revocation endpoint
+OLGH8252 Eclipselink: Fix bug 547173
+OLGH8274 WSOC: fix a read during close timing window. 
+OLGH8277 login process is carried out for unprotected resources even TAI does not intercepts a request
+OLGH8304 Loose application with MP Health not picking up changes after recompile - GM 19.0.0.7
+OLGH8307 Error on edit for OAuth client with no secret
+OLGH8339 openidconnect emits httpclient spurious log warnings for certain cookies
+OLGH8346 Liberty 19.0.0.7 Blocks *all* Large Object API functions for Postgres
+OLGH8401 Add doPrivileged block in WASInitialContextFactoryBuilder for class look up
+OLGH8449 content-length header should not be required for HTTP/2 requests
+OLGH8458 Channel framework chains not closing down before timeout
+OLGH8460 8458 - Loop until cfw chain is closed
+OLGH8474 PushBuilder should ignore headers with null values
+OLGH8482 URBridgeEntity uses NLS message key, REQUIRED_IDENTIFIERS_MISSING, which is not defined

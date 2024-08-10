@@ -1,0 +1,57 @@
+Launching PlantsByWebSphereServer (WebSphere Application Server 19.0.0.8/wlp-1.0.31.cl190820190813-1136) on OpenJDK 64-Bit Server VM, version 11.0.16.1+1-LTS (en_US)
+[AUDIT   ] CWWKE0001I: The server PlantsByWebSphereServer has been launched.
+[AUDIT   ] CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/19.0.0.8/lafiles/en.html
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications.
+[AUDIT   ] CWWKS4104A: LTPA keys created in 0.218 seconds. LTPA key file: D:/GitHub/plants4was/sample.plantsbywebsphere/build/wlp/usr/servers/PlantsByWebSphereServer/resources/security/ltpa.keys
+[AUDIT   ] CWPKI0803A: SSL certificate created in 0.977 seconds. SSL key file: D:/GitHub/plants4was/sample.plantsbywebsphere/build/wlp/usr/servers/PlantsByWebSphereServer/resources/security/key.p12
+[AUDIT   ] CWWKI0001I: The CORBA name server is now available at corbaloc:iiop:localhost:2809/NameService.
+[EL Info]: server: 2024-08-09 18:20:14.015--Detected server platform: org.eclipse.persistence.platform.server.was.WebSphere_Liberty_Platform.
+[WARNING ] CNTR0169E: The MailerBean enterprise bean, which is specified in the session binding within the PlantsByWebSphere.war module, does not exist.
+[err] java.lang.NullPointerException
+[err] 	at java.base/java.util.StringTokenizer.<init>(StringTokenizer.java:199)
+[err] 	at java.base/java.util.StringTokenizer.<init>(StringTokenizer.java:221)
+[err] 	at com.ibm.websphere.samples.pbw.utils.Util.readTokens(Util.java:232)
+[err] 	at com.ibm.websphere.samples.pbw.bean.ResetDBBean.populateDB(ResetDBBean.java:265)
+[err] 	at com.ibm.websphere.samples.pbw.bean.ResetDBBean$Proxy$_$$_WeldSubclass.populateDB(Unknown Source)
+[err] 	at com.ibm.websphere.samples.pbw.bean.PopulateDBBean.initDB(PopulateDBBean.java:20)
+[err] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[err] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[err] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[err] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[err] 	at com.ibm.ejs.container.interceptors.InterceptorProxy.invokeInterceptor(InterceptorProxy.java:200)
+[err] 	at [internal classes]
+[err] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[err] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[err] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[err] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[err] 	at com.ibm.ejs.container.interceptors.InterceptorProxy.invokeInterceptor(InterceptorProxy.java:189)
+[err] 	at [internal classes]
+[err] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[err] 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[err] 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[err] 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[err] 	at com.ibm.ejs.container.interceptors.InterceptorProxy.invokeInterceptor(InterceptorProxy.java:189)
+[err] 	at [internal classes]
+[err] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[err] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[err] 	at java.base/java.lang.Thread.run(Thread.java:829)
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://localhost:9080/PlantsByWebSphere/
+[AUDIT   ] CWWKZ0001I: Application PlantsByWebSphere started in 4.375 seconds.
+[AUDIT   ] CWWKF0012I: The server installed the following features: [appClientSupport-1.0, appSecurity-2.0, batch-1.0, beanValidation-1.1, cdi-1.2, concurrent-1.0, distributedMap-1.0, ejb-3.2, ejbHome-3.2, ejbLite-3.2, ejbPersistentTimer-3.2, ejbRemote-3.2, el-3.0, j2eeManagement-1.1, jacc-1.5, jaspic-1.1, javaMail-1.5, javaee-7.0, jaxb-2.2, jaxrs-2.0, jaxrsClient-2.0, jaxws-2.2, jca-1.7, jcaInboundSecurity-1.0, jdbc-4.1, jms-2.0, jndi-1.0, jpa-2.1, jpaContainer-2.1, jsf-2.2, json-1.0, jsonp-1.0, jsp-2.3, localConnector-1.0, managedBeans-1.0, mdb-3.2, servlet-3.1, ssl-1.0, wasJmsClient-2.0, wasJmsSecurity-1.0, wasJmsServer-1.0, webProfile-7.0, websocket-1.1].
+[AUDIT   ] CWWKF0011I: The PlantsByWebSphereServer server is ready to run a smarter planet. The PlantsByWebSphereServer server started in 38.584 seconds.
+[WARNING ] 
+
+*******************************************************************
+*** WARNING: Apache MyFaces-2 is running in DEVELOPMENT mode.   ***
+***                                         ^^^^^^^^^^^         ***
+*** Do NOT deploy to your live server(s) without changing this. ***
+*** See Application#getProjectStage() for more information.     ***
+*******************************************************************
+
+[AUDIT   ] CWWKE0055I: Server shutdown requested on Friday, August 9, 2024 at 10:33 PM. The server PlantsByWebSphereServer is shutting down.
+[AUDIT   ] CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://localhost:9080/PlantsByWebSphere/
+[AUDIT   ] CWWKZ0009I: The application PlantsByWebSphere has stopped successfully.
+[AUDIT   ] CWWKI0002I: The CORBA name server is no longer available at corbaloc:iiop:localhost:2809/NameService.
+[AUDIT   ] WTRN0105I: The transaction service has shutdown successfully with no transactions requiring recovery.
+[AUDIT   ] CWWKE0036I: The server PlantsByWebSphereServer stopped after 4 hours, 14 minutes, 10.403 seconds.

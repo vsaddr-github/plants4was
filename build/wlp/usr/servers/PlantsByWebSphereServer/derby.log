@@ -1,0 +1,19 @@
+----------------------------------------------------------------
+Fri Aug 09 18:20:15 EDT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0191-393a-6c14-000027b9e010 
+on database directory memory:D:\GitHub\plants4was\sample.plantsbywebsphere\build\wlp\usr\servers\PlantsByWebSphereServer\PLANTSDB with class loader com.ibm.ws.classloading.internal.AppClassLoader@372a5fb 
+Loaded from file:/D:/GitHub/plants4was/sample.plantsbywebsphere/build/wlp/usr/servers/PlantsByWebSphereServer/lib/derby-10.11.1.1.jar
+java.vendor=Microsoft
+java.runtime.version=11.0.16.1+1-LTS
+user.dir=D:\GitHub\plants4was\sample.plantsbywebsphere\build\wlp\usr\servers\PlantsByWebSphereServer
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Aug 09 22:33:48 EDT 2024:
+Shutting down instance a816c00e-0191-393a-6c14-000027b9e010 on database directory memory:D:\GitHub\plants4was\sample.plantsbywebsphere\build\wlp\usr\servers\PlantsByWebSphereServer\PLANTSDB with class loader com.ibm.ws.classloading.internal.AppClassLoader@372a5fb 
+----------------------------------------------------------------
+Fri Aug 09 22:33:48 EDT 2024: Shutting down Derby engine
+----------------------------------------------------------------
